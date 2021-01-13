@@ -1444,3 +1444,17 @@ color: #5c7893 !important;
 .juicer-feed h1.referral a::after {
 display: none !important;
 }
+
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.responsive-iframe-container iframe {
+
+    width: 100%;
+max-width: 800px;
+}
