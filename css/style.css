@@ -104,7 +104,7 @@ a {
   padding: 3em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 3em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -1399,3 +1399,10 @@ a {
 .unit-8 .accordion-item .body-text {
   padding: 5px 0;
   padding-left: 30px; }
+.insta{height:80px}
+.juicer-feed h1.referral a {
+color: #5c7893 !important;
+}
+.juicer-feed h1.referral a::after {
+display: none !important;
+}
