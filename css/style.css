@@ -615,6 +615,22 @@ a {
     -webkit-box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.1); }
 
+
+    .site-block-half {
+      flex-direction: column;
+    }
+
+    .site-block-half:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+
+    @media (min-width: 768px) {
+      .site-block-half {
+        flex-direction: row !important;
+      }
+    }
+
+
 .site-block-half .image, .site-block-half .text {
   width: 100%; }
   @media (min-width: 992px) {
